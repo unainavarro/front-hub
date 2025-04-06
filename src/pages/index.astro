@@ -1,16 +1,19 @@
 ---
-import SearchBar from "../components/SearchBar.astro";
 import Layout from "../layouts/Layout.astro";
+
+import SearchBar from "../components/SearchBar.astro";
+import CategoryFilter from "../components/CategoryFilter.astro";
 ---
 
 <Layout>
   <div class="main-container">
-    <h1 class="main-title">Templates Collection</h1>
+    <h1 class="main-title">Templates</h1>
     <p class="main-description">
-      Explora nuestros templates hechos con diferentes tecnologías.
+      Descarga nuestros templates hechos con diferentes tecnologías.
     </p>
 
     <SearchBar />
+    <CategoryFilter />
   </div>
 </Layout>
 
