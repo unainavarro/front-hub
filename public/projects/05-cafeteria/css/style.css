@@ -1,0 +1,14 @@
+@import url(utils/globals.css);
+@import url(utils/utilidades.css);
+
+@import url(components/header.css);
+@import url(components/footer.css);
+@import url(components/sobre_nosotros.css);
+@import url(components/galeria.css);
+@import url(components/menu.css);
+@import url(components/testimoniales.css);
+
+@import url(pages/nosotros.css);
+@import url(pages/proceso.css);
+@import url(pages/contacto.css);
+@import url(pages/menu.css);

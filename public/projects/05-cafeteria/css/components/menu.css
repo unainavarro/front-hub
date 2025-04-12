@@ -1,0 +1,57 @@
+.nuestro-menu {
+  background-image: url(../../img/menu_arriba.svg),
+    url(../../img/menu_abajo.svg),
+    linear-gradient(0deg, var(--primario), var(--primario));
+  background-position: center 5rem, center 92%, 100%;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  padding: 15rem 2rem 20rem;
+}
+
+@media (min-width: 768px) {
+  .nuestro-menu {
+    background-size: 100%;
+    padding: 15rem 0 20rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nuestro-menu {
+    background-size: 50%, 50%, 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-menu {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.menu h3 {
+  color: var(--blanco);
+}
+
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li p {
+  color: var(--blanco);
+  font-size: 2.2rem;
+  line-height: 1.5;
+  margin: 0 0 2rem;
+}
+
+.menu li p span {
+  color: var(--secundario);
+  display: block;
+}
+
+.menu li .precio {
+  font-size: 4rem;
+  font-weight: 700;
+}

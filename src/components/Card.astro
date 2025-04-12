@@ -11,8 +11,9 @@ const { template } = Astro.props;
   </div>
   <p class="template-description">{template.description}</p>
   <div class="template-buttons">
-    <a href={template.github} class="button github">GitHub</a>
-    <a href={template.preview} class="button preview">Preview</a>
+    <a href={template.github} target="_blank" class="button github">GitHub</a>
+    <a href={template.preview} target="_blank" class="button preview">Preview</a
+    >
   </div>
 </div>
 
@@ -98,10 +99,10 @@ const { template } = Astro.props;
   }
 
   .button.preview {
-    background: #a855f7;
+    background: #cf2948;
   }
 
   .button.preview:hover {
-    background: #9333ea;
+    background: #be123c;
   }
 </style>

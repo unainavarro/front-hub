@@ -1,0 +1,25 @@
+.contenido-menu {
+  aspect-ratio: 3/6;
+  background-image: url(../../img/cafe.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (min-width: 480px) {
+  .contenido-menu {
+    aspect-ratio: 3/4;
+  }
+}
+@media (min-width: 768px) {
+  .contenido-menu {
+    aspect-ratio: 16/6;
+    background-position: 100% 100%;
+    background-size: 40%;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.contenido-menu .texto p {
+  font-size: 2rem;
+}
