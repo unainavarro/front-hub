@@ -1,10 +1,10 @@
 export default [
   {
-    title: "Vanilla Template",
+    title: "Navbar simple",
     img: "img/default.png",
     tags: ["HTML", "CSS", "JS"],
     category: "vanilla",
-    description: "Un template básico con HTML, CSS y JS.",
+    description: "Una barra de navegación básica con HTML, CSS y JS.",
     github: "#",
     preview: "#",
   },
