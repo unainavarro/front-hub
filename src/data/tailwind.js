@@ -1,12 +1,13 @@
 export default [
   {
-    id: 1,
-    title: "Tailwind Template",
+    title: "Pizza",
     img: "img/default.png",
-    tags: ["HTML", "Tailwind"],
+    tags: ["Tailwind", "JS"],
     category: "tailwind",
-    description: "Un diseño moderno con Tailwind CSS.",
-    github: "#",
-    preview: "#",
+    description:
+      "Pizzería que ofrece pizzas italianas deliciosas y auténticas, hechas con amor.",
+    github:
+      "https://github.com/unainavarro/front-hub/tree/main/public/projects/tailwind/pizza",
+    preview: "projects/tailwind/pizza/index.html",
   },
 ];

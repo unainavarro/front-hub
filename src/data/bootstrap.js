@@ -1,12 +1,14 @@
 export default [
   {
     id: 1,
-    title: "Bootstrap Template",
+    title: "Mudanzas",
     img: "img/default.png",
-    tags: ["HTML", "Bootstrap"],
+    tags: ["Bootstrap", "JS"],
     category: "bootstrap",
-    description: "Interfaz rápida con Bootstrap.",
-    github: "#",
-    preview: "#",
+    description:
+      "Servicio de mudanzas seguro, rápido y confiable para tu hogar o empresa.",
+    github:
+      "https://github.com/unainavarro/front-hub/tree/main/public/projects/bootstrap/mudanzas",
+    preview: "projects/bootstrap/mudanzas/index.html",
   },
 ];

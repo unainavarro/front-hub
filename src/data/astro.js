@@ -1,12 +1,20 @@
 export default [
   {
-    id: 1,
-    title: "Astro Template",
+    title: "Front-Hub",
     img: "img/default.png",
-    tags: ["Astro", "Tailwind"],
+    tags: ["Astro"],
     category: "astro",
-    description: "Template optimizado con Astro.",
+    description: "Alojamiento de proyectos Front-End",
+    github: "https://github.com/unainavarro/front-hub",
+    preview: "https://front-hub.netlify.app/",
+  },
+  {
+    title: "Code-Path",
+    img: "img/default.png",
+    tags: ["Astro"],
+    category: "astro",
+    description: "Alojamiento de apuntes",
     github: "#",
-    preview: "#",
+    preview: "https://code-path.netlify.app/",
   },
 ];
