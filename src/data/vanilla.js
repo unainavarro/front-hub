@@ -1,4 +1,23 @@
 export default [
+  // {
+  //   title: "Titulo",
+  //   img: "img/default.png",
+  //   tags: ["HTML", "CSS", "JS"],
+  //   category: "vanilla",
+  //   description: "",
+  //   github: "",
+  //   preview: "",
+  // },
+  {
+    title: "JS- Challenges",
+    img: "img/default.png",
+    tags: ["HTML", "CSS", "JS"],
+    category: "vanilla",
+    description:
+      "Colección de pequeños proyectos y retos diseñados para practicar.",
+    github: "https://github.com/unainavarro/js-challenges",
+    preview: "https://js-challenges-u.netlify.app/",
+  },
   {
     title: "Inmobiliaria",
     img: "img/default.png",
@@ -21,28 +40,28 @@ export default [
       "https://github.com/unainavarro/front-hub/tree/main/public/projects/vanilla/reparto",
     preview: "projects/vanilla/reparto/index.html",
   },
-  {
-    title: "Distribución de podcast",
-    img: "img/default.png",
-    tags: ["HTML", "CSS"],
-    category: "vanilla",
-    description:
-      "Plataforma para crear, distribuir y compartir podcasts de forma fácil y rápida.",
-    github:
-      "https://github.com/unainavarro/front-hub/tree/main/public/projects/vanilla/podcast",
-    preview: "projects/vanilla/podcast/index.html",
-  },
-  {
-    title: "Alojamientos",
-    img: "img/default.png",
-    tags: ["HTML", "CSS"],
-    category: "vanilla",
-    description:
-      "Plataforma para encontrar alojamientos de alquiler y viviendas de forma sencilla.",
-    github:
-      "https://github.com/unainavarro/front-hub/tree/main/public/projects/vanilla/alojamientos",
-    preview: "projects/vanilla/alojamientos/index.html",
-  },
+  // {
+  //   title: "Distribución de podcast",
+  //   img: "img/default.png",
+  //   tags: ["HTML", "CSS"],
+  //   category: "vanilla",
+  //   description:
+  //     "Plataforma para crear, distribuir y compartir podcasts de forma fácil y rápida.",
+  //   github:
+  //     "https://github.com/unainavarro/front-hub/tree/main/public/projects/vanilla/podcast",
+  //   preview: "projects/vanilla/podcast/index.html",
+  // },
+  // {
+  //   title: "Alojamientos",
+  //   img: "img/default.png",
+  //   tags: ["HTML", "CSS"],
+  //   category: "vanilla",
+  //   description:
+  //     "Plataforma para encontrar alojamientos de alquiler y viviendas de forma sencilla.",
+  //   github:
+  //     "https://github.com/unainavarro/front-hub/tree/main/public/projects/vanilla/alojamientos",
+  //   preview: "projects/vanilla/alojamientos/index.html",
+  // },
   {
     title: "Escuela de cocina",
     img: "img/default.png",
@@ -61,17 +80,6 @@ export default [
     category: "vanilla",
     description:
       "Tienda especializada en guitarras, accesorios y todo para músicos apasionados.",
-    github:
-      "https://github.com/unainavarro/front-hub/tree/main/public/projects/vanilla/guitarra",
-    preview: "projects/vanilla/guitarra/index.html",
-  },
-  {
-    title: "JS- Challenges",
-    img: "img/default.png",
-    tags: ["HTML", "CSS", "JS"],
-    category: "vanilla",
-    description:
-      "Colección de pequeños proyectos y retos diseñados para practicar.",
     github:
       "https://github.com/unainavarro/front-hub/tree/main/public/projects/vanilla/guitarra",
     preview: "projects/vanilla/guitarra/index.html",

@@ -7,7 +7,7 @@ export default [
     description:
       "Pizzería que ofrece pizzas italianas deliciosas y auténticas, hechas con amor.",
     github:
-      "https://github.com/unainavarro/front-hub/tree/main/public/projects/tailwind/pizza",
-    preview: "projects/tailwind/pizza/index.html",
+      "https://github.com/unainavarro/front-hub/tree/main/public/projects/tailwind/pizzeria",
+    preview: "projects/tailwind/pizzeria/index.html",
   },
 ];

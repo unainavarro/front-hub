@@ -4,7 +4,7 @@ export default [
     img: "img/default.png",
     tags: ["Astro"],
     category: "astro",
-    description: "Alojamiento de proyectos Front-End",
+    description: "Alojamiento Front-End",
     github: "https://github.com/unainavarro/front-hub",
     preview: "https://front-hub.netlify.app/",
   },
