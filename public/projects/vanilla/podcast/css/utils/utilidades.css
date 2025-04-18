@@ -1,0 +1,64 @@
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.seccion {
+  padding: 3rem 0;
+}
+@media (min-width: 768px) {
+  .seccion {
+    padding: 8rem 0;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: var(--primario);
+}
+
+/* Botones */
+.boton-plan,
+.boton-primario {
+  background-color: var(--primario);
+  color: var(--secundario);
+  border: none;
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.2rem 4rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.boton-plan:hover,
+.boton-primario:hover {
+  background-color: var(--primario);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .boton-plan,
+  .boton-primario {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+.boton-plan {
+  border: 2px solid var(--blanco);
+  display: block;
+  margin-top: 2rem;
+}
+
+/* Subrayado */
+.beneficios,
+.crea-grid h2:after {
+  background-color: var(--primario);
+}

@@ -1,0 +1,117 @@
+.planes {
+  background-color: var(--secundario);
+}
+
+.planes h2 {
+  color: var(--blanco);
+  display: inline-block;
+  font-size: 3.6rem;
+  margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+  .planes h2 {
+    margin-top: 0;
+  }
+}
+
+.planes h2:after {
+  background-color: var(--primario);
+  content: "";
+  display: block;
+  height: 1rem;
+  margin: -1.4rem 0 0;
+  width: calc(100% + 1rem);
+}
+
+.planes .descripcion {
+  color: var(--blanco);
+}
+
+.nuestros-planes {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .nuestros-planes {
+    max-width: 80rem;
+    flex-direction: row;
+    -webkit-margin-before: 10rem;
+    margin-block-start: 10rem;
+    margin-inline: auto;
+  }
+}
+
+.nuestros-planes .plan {
+  background-color: var(--blanco);
+  border-bottom: 1px solid var(--gris);
+  flex-grow: 1;
+  padding: 16rem 4rem 4rem;
+}
+
+@media (min-width: 768px) {
+  .nuestros-planes .plan {
+    border: none;
+    transition-duration: 0.3s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .nuestros-planes .plan:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.nuestros-planes .plan .precio {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nuestros-planes .plan .listado li {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.nuestros-planes .plan .listado li:last-of-type {
+  margin-bottom: 0;
+}
+
+.nuestros-planes .plan.inicio {
+  background-image: url(../../img/icono_inicio.svg);
+}
+
+.nuestros-planes .plan.inicio,
+.nuestros-planes .plan.negocio {
+  background-position: 50% 2rem;
+  background-repeat: no-repeat;
+  background-size: 10rem;
+}
+
+.nuestros-planes .plan.negocio {
+  background-color: var(--primario);
+  background-image: url(../../img/icono_negocio.svg);
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  .nuestros-planes .plan.negocio {
+    background-position: 50% 7rem;
+    border-radius: 2rem;
+    margin-bottom: -5rem;
+    margin-top: -5rem;
+    order: unset;
+    padding-top: 21rem;
+    z-index: 100;
+  }
+}
+
+.nuestros-planes .plan.pro {
+  background-image: url(../../img/icono_pro.svg);
+  background-position: 50% 2rem;
+  background-repeat: no-repeat;
+  background-size: 10rem;
+}

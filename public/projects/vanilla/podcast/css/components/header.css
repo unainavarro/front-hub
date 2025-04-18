@@ -1,0 +1,50 @@
+.site-header {
+  background-image: linear-gradient(
+      var(--secundarioOpacity),
+      var(--secundarioOpacity)
+    ),
+    url(../../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 5rem auto;
+}
+
+.site-header .logo {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .site-header .logo {
+    margin: 0;
+  }
+}
+
+.site-header .contenido-header {
+  padding: 10rem 0;
+}
+
+@media (min-width: 1024px) {
+  .site-header .contenido-header {
+    padding: 15rem 0;
+  }
+}
+
+.site-header .contenido-header h1 {
+  color: var(--blanco);
+  font-size: 4.5rem;
+}
+
+@media (min-width: 768px) {
+  .site-header .contenido-header h1 {
+    font-size: 6rem;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-header .contenido-header h1 {
+    max-width: 40%;
+  }
+}

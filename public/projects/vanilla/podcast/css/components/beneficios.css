@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+  .beneficios .grid-beneficios {
+    align-items: center;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.beneficios .contenido-beneficios {
+  grid-column: 1/4;
+}
+
+.beneficios .contenido-beneficios h2 {
+  color: var(--secundario);
+  display: inline-block;
+  font-size: 3.6rem;
+  margin-top: 5rem;
+  text-wrap: pretty;
+}
+
+@media (min-width: 768px) {
+  .beneficios .contenido-beneficios h2 {
+    margin-top: 0;
+  }
+}
+
+.beneficios .contenido-beneficios h2:after {
+  content: "";
+  display: block;
+  background-color: var(--blanco);
+  width: calc(100% + 1rem);
+  height: 1rem;
+  margin: -1.4rem 0 0;
+}
+
+.beneficios .imagen {
+  grid-column: 4/6;
+  transition-duration: 0.3s;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.beneficios .imagen:hover {
+  -webkit-transform: rotate(8deg) scale(1.1);
+  transform: rotate(8deg) scale(1.1);
+}
